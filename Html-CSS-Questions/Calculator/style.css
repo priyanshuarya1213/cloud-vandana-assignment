@@ -1,0 +1,46 @@
+body {
+  background-color: #bfbebe;
+}
+
+table {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15rem;
+  border: none;
+  border-spacing: 0px;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 20px 40px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+}
+
+input[type="text"] {
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+}
+
+.symbol {
+  background-color: grey;
+}
+
+.numbers {
+  background-color: black;
+}
+
+.clear {
+  background-color: green;
+}
+
+td {
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+        <!-- Create table -->
+        <table id="calcu">
+          <tr>
+            <td colspan="3">
+              <input type="text" id="result">
+            </td>
+            <td><input type="button" class="clear" value="AC" onclick="clearResult()"></td>
+          </tr>
+      
+          <tr>
+            <td><input type="button" class="numbers" value="9" onclick="appendToResult('9')"></td>
+            <td><input type="button" class="numbers" value="8" onclick="appendToResult('8')"></td>
+            <td><input type="button"class="numbers" value="7" onclick="appendToResult('7')"></td>
+            <td><input type="button" class="symbol" value="+" onclick="appendToResult('+')"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="4" class="numbers" onclick="appendToResult('4')"></td>
+            <td><input type="button" value="5" class="numbers" onclick="appendToResult('5')"></td>
+            <td><input type="button" value="6" class="numbers" onclick="appendToResult('6')"></td>
+            <td><input type="button" value="-" class="symbol" onclick="appendToResult('-')"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="1" class="numbers" onclick="appendToResult('1')"></td>
+            <td><input type="button" value="2" class="numbers" onclick="appendToResult('2')"></td>
+            <td><input type="button" value="3" class="numbers" onclick="appendToResult('3')"></td>
+            <td><input type="button" value="*" class="symbol" onclick="appendToResult('*')"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="0" class="numbers" onclick="appendToResult('0')"></td>
+            <td><input type="button" value="." class="numbers" onclick="appendToResult('.')"></td>
+            <td><input type="button" value="=" class="numbers" onclick="calculateResult()"></td>
+            <td><input type="button" value="/" class="symbol" onclick="appendToResult('/')"></td>
+          </tr>
+        </table>
+      
+    <script src="script.js"></script>
+</body>
+</html>
